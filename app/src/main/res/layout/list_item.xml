@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:paddingEnd="6dp"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:paddingStart="6dp">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:gravity="top"
+        android:maxLines="2"
+        android:text="Title ...once upon a time there was a long book title"/>
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="12sp"
+        android:text="Author1"
+        android:layout_marginRight="8dp"/>
+
+        <TextView
+        android:id="@+id/author_secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="12sp"
+            android:text="Author2"/>
+    </LinearLayout>
+
+</LinearLayout>
